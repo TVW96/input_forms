@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 
 function Form2() {
     return (
-        <div>
+        <div className='mt-5'>
             <h1>React Boot Strap Form</h1>
             <Form data-bs-theme="dark">
                 <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -22,7 +22,7 @@ function Form2() {
                 <Form.Group className="mb-3" controlId="formBasicCheckbox">
                     <Form.Check type="checkbox" label="Check me out" />
                 </Form.Group>
-                <Button variant="primary" type="submit" className='Button'>
+                <Button variant="secondary" type="submit" className='Button'>
                     Submit
                 </Button>
             </Form>
