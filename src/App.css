@@ -13,8 +13,33 @@
 h1 {
   text-align: center;
 }
+h2 {
+  text-align: center;
+}
 
 .Button {
   display: flex;
   justify-content: center;
+}
+
+.popUp {
+  margin-right: auto; 
+  margin-left: auto; 
+  width: 250px; 
+  box-shadow: 0 10px 10px 1px rgba(0, 0, 0, 0.2); 
+  height: 200px; 
+  border-radius: 5px; 
+  backdrop-filter: blur(14px); 
+  background-color: rgba(255, 255, 255, 0); 
+  padding: 10px; 
+  text-align: center;
+  margin: 20px;
+}
+.popUpContainer {
+  position: sticky;
+  bottom: 11px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
 }
