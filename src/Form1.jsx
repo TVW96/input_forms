@@ -3,14 +3,29 @@ import React from 'react'
 function Form1() {
     return (
         <div >
-            <h1>Common HTML Form</h1>
+
+            <h1>Common HTML Form Elements</h1>
+
             <fieldset >
                 <legend>User Login/ Your Information</legend>
-                <label for="username">Username:</label><br />
-                <input type="text" id="username" name="username" /><br />
-                <label for="pwd">Password:</label><br />
-                <input type="password" id="pwd" name="pwd" />
+                <div>
+                    <label for="username">Username:</label><br />
+                    <input type="text" id="username" name="username" /><br />
+                </div>
+                <div>
+                    <label for="password">Password:</label><br />
+                    <input type="password" id="password" name="pwd" />
+                </div>
+                <div>
+                    <input type="text" name='firstname' placeholder='firstname' required />
+                    <input type="text" name='lastname' placeholder='lastname' required />
+                </div>
             </fieldset>
+
+{/* multi-line text input control form */}
+            <textarea name='feedback' rows='5' col='30' placeholder='your feedback here.'>
+
+            </textarea>
         </div>
     )
 }
