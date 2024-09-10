@@ -1,18 +1,14 @@
-import "./App.css";
-import Form1 from './Form1';
+import React from 'react';
 import Form2 from './Form2';
-import PopUpWindow from "./PopUpWindow";
+import Form from "react-bootstrap/Form";
+import "./App.css";
 
-function App() {
+function App2() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Form1 />
-        <Form2 />
-        <PopUpWindow />
-      </header>
+        
     </div>
-  );
+  )
 }
 
-export default App;
+export default App2
